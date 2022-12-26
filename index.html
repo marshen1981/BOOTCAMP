@@ -4,11 +4,24 @@
     <!--EL HEAD NO SE VE-->
 <head>
     <title>BOOTCAMP COMAFI - HTML</title>
+    <!--Estilo Interno-->
+    <style>
+        /*Comentario CSS*/
+        /*Estilo Etiqueta*/
+        header {background-color:darkslateblue; color:blue;}
+        header p {color:blueviolet}
+        #segundoParrafo {color:white}
+    </style>
+    <!--Estilo Externo-->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <!--EL BODY SE VE-->
 <body>
     <header>
-        <h1>MUNDIAL QATAR 2022</h1>
+        <!-- Estilo Inline-->
+        <h1 style="font-size: 50px;font-weight: normal;">MUNDIAL QATAR 2022</h1>
+        <p>Argentina Campeón!</p>
+        <p id="segundoParrafo">Messi MVP!</p>
     </header>
     <nav>
         <!--ENLACES-->
@@ -31,6 +44,12 @@
         </section>
         <section>
             <h2>Jugadores</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum consequuntur incidunt. Dolores ex omnis illum aspernatur amet asperiores in ea eos aliquid ratione reiciendis laborum perferendis, eveniet fugiat cupiditate!  
+            </p>
+        </section>
+        <section id="sectionArbitros">
+            <h2>Arbitros</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum consequuntur incidunt. Dolores ex omnis illum aspernatur amet asperiores in ea eos aliquid ratione reiciendis laborum perferendis, eveniet fugiat cupiditate!  
             </p>
@@ -64,7 +83,13 @@
             <h4>Secciones</h4>
             <!--items de lista-->
             <li>
-                <a href="./vision.html">Vision</a>
+                <a href="./pages/vision.html">Vision</a>
+            </li>
+            <li>
+                <a href="./pages/forms.html">Formularios</a>
+            </li>
+            <li>
+                <a href="./pages/tables.html">Tablas</a>
             </li>
             <li>
                 <p>Seccion 1</p>

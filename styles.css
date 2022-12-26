@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*TODO ES CSS*/
+/*Como crear una Clase
+.nombreDeLaClase {
+    atributo: valor;
+    atributo2: valor;
+    atributoN: valor;
+}
+*/
+/*Selector Etiqueta Section: Afecta a todos los section*/
+section {
+    background-color: beige;
+}
+/*Selector ID Section: Afecta a todos los section*/
+#sectionArbitros {
+    background-color: rgb(16, 244, 240, 0.1);
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'ubuntu', sans-serif;
+    font-style: italic;
+}
